@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/lux/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<h2 class="text-center bg-dark text-light">Contact List</h2>
+	<div class="container mt-3">
+		<div id="error"></div>
+		<div class="jumbotron">
+			<form class="form-group" id="searchForm">
+					<h6 class="">Search for a contact : </h6>
+					<input type="text" id="searchBox" class="form-control bg-light" placeholder="Enter the name of a contact...">
+			</form>
+
+			<form class="form-group mt-3" id="contactForm">
+				<h6 class="font-weight-bold">Add Contact</h6>
+				<div class="row">
+					<div class="col-6 col-sm-6 col-md-6 text-center">
+						<input type="text" id="contactNameBox" class="form-control bg-light" placeholder="Contact name...">
+					</div>
+					<div class="col-6 col-sm-6 col-md-6 text-center">
+						<input type="text" id="conactPhoneBox" class="form-control bg-light" placeholder="Contact phone...">
+					</div>
+				</div>
+				<center>
+					<input type="submit" value="Add Contact" class="align-center btn btn-primary mt-3">
+				</center>
+				
+			</form>
+		</div>
+
+		<div class="jumbotron">
+			<h6 class="text-center">List of contact</h6>
+			<table class="text-center deleteBtn" width="100%" border=1>
+				<thead>
+						<th colspan="2" class="font-weight-bold">contact name</th>
+						<th class="font-weight-bold">contact phone</th>
+				</thead>
+			</table>
+		</div>
+		<footer>Project By SOUHAIL BENLHACHEMI &copy; 2019</footer>
+	</div>
+	
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
